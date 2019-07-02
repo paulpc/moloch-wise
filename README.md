@@ -12,3 +12,5 @@ To generate a container for a specific tag, use the tag as a parameter:
 ```
 
 The script should be prettu verbose and should fail in case the tests do not complete successfully.
+
+If you don't care about the sausage making process, check out the docker repo at: https://cloud.docker.com/repository/docker/p4ulpc/moloch-wise/general
