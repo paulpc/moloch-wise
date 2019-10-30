@@ -6,7 +6,7 @@ git clone git@github.com:aol/moloch.git
 if [ -z "$1" ] ; then
     tag="git-latest"
 else
-    tag=$1
+    tag="v$1"
     cd moloch
     # selecting the branch to the tag
     git checkout $tag
