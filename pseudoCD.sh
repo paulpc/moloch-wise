@@ -3,7 +3,7 @@
 # downloading the repo
 git clone git@github.com:aol/moloch.git
 
-if [ -z "$1"]; then
+if [ -z "$1" ] ; then
     tag="git-latest"
 else
     tag=$1
